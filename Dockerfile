@@ -6,5 +6,3 @@ ARG DEBIAN_FRONTEND=noninteractive
 
 COPY *.sh /
 RUN chmod +x install-cmake.sh && sleep 1 && ./install-cmake.sh && rm install-cmake.sh
-
-EXPOSE 3389 8080
